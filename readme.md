@@ -2,7 +2,7 @@
 ## 利用方法
 wmic computersystem where name="%computername%" call joindomainorworkgroup name="%domainname%" password="password" username="username" FJoinOptions=3
 
-↑のPassword="password" username="username"をAD参加用のユーザーに変更して実行
+↑のPassword="password" username="username"をAD参加用のユーザー、パスワードに変更して実行
 
 ## その他
 ### 利用想定
